@@ -1,0 +1,11 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+	mavenCentral();
+}
+
+dependencies {
+	compile group: 'org.codehaus.jackson', name: 'jackson-core-asl', version: '1.9.2'
+	compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.2'
+}
