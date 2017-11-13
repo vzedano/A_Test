@@ -6,8 +6,6 @@ import java.util.TreeMap;
 
 public class TreeHolder {
 	
-	public Map<String, MySimpleObject> ourTree = Collections.synchronizedSortedMap(new TreeMap<String, MySimpleObject>());
-	
-	
+	public Map<String, MySimpleObject> ourTree = Collections.synchronizedSortedMap(new TreeMap<String, MySimpleObject>());	
 	
 }
